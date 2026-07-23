@@ -1,7 +1,27 @@
 aid: arrailgroup
-name: arrailgroup
-description: arrailgroup is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arrailgroup.png
+name: Arrail Group
+description: >-
+  Arrail Group (瑞尔集团) is one of the largest privately owned dental service
+  providers in China, operating premium Arrail Dental clinics and the Rytime
+  Dental (瑞泰口腔) network across major Chinese cities. The company delivers
+  general dentistry, orthodontics, implants, and pediatric dental care through
+  directly operated clinics and hospitals. It is listed on the Hong Kong Stock
+  Exchange and counts Qiming Venture Partners among its investors. Arrail Group
+  was added to the API Evangelist network as a Qiming portfolio company; it is a
+  consumer healthcare provider and publishes no public developer API, SDK, or
+  documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/arrailgroup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dental
+- Healthcare
+- Dental Services
+- China
+- Qiming Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arrailgroup-domain-security.yml
 - type: Website
-  url: https://arrailgroup.com
+  url: https://www.arrailgroup.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
